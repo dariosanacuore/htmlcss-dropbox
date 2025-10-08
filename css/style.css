@@ -6,6 +6,7 @@
 .container{
     margin:0 auto;
     max-width:1000px;
+    
 
 }
 .align-center{
@@ -42,9 +43,69 @@ nav.container {
 .right-menu li{
     align-self: center;
 }
-.sezione2{
-    min-height:400px;
-    background-color: lightblue;
-    width:100%;
-    padding-top:10px;
+.blocco1{
+     background-color:pink;
+     width:100%;
+     min-height:120px;
+     margin-bottom:20px;
 }
+.blocco2{
+     background-color:pink;
+     width:20%;
+     min-height:250px;
+     align-self: flex-start;
+    
+}
+.blocco3{
+    margin-left:50px;
+     background-color:pink;
+     width:60%;
+     min-height:100px;
+     align-self: center;
+
+}
+.sez1-bg{
+    background-color: aqua;
+}
+.wrap{
+    flex-wrap: wrap;
+}
+.direction{
+    flex-direction: column;
+}
+
+
+.blocco4{
+    background-color:pink;
+     width:25%;
+     min-height:500px;
+     margin-top:50px;
+}
+.direction-r{
+    flex-direction: row;
+}
+.justify{
+    justify-content: center;
+}
+.blocco5{
+    background-color:pink;
+     width:25%;
+     min-height:500px;
+     margin-top:50px;
+     margin-left:20px;
+     margin-right:20px;
+}
+.sez-bg {
+  display: flex;
+  flex-direction: row; 
+  align-items: center; 
+  padding: 20px;
+}
+
+.blocco4, .blocco5, .blocco6 {
+  width: 50%;
+  min-height: 600px;
+  background-color: pink;
+  margin: 10px;
+}
+
