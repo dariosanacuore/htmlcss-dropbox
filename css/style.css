@@ -1,142 +1,213 @@
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-.container{
-    margin:0 auto;
-    max-width:1000px;
-    
+
+.container {
+    margin: 0 auto;
+    max-width: 1000px;
+    width:100%;
+
 
 }
-.align-center{
+
+.align-center {
     align-items: center;
 }
-.header-flex{
-    width:100%;
-    min-height:100px;
-    background-color:lightyellow;
+.align2{
+    align-items: center;
+}
+
+.header-flex {
+    width: 100%;
+    min-height: 100px;
+    background-color: lightyellow;
     display: flex;
     align-items: center;
 }
+
 nav.container {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-}
-.flex{
+    width: 100%;
     display: flex;
-}
-.justify-between{
     justify-content: space-between;
 }
-.right-menu{
-    justify-content: flex-end;
-    gap:30px;
+
+.flex {
+    display: flex;
 }
-.left-menu{
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.right-menu {
+    justify-content: flex-end;
+    gap: 30px;
+}
+
+.left-menu {
     justify-content: flex-start;
 }
-.left-menu li{
+
+.left-menu li {
     align-self: center;
 }
-.right-menu li{
+
+.right-menu li {
     align-self: center;
 }
-.blocco1{
-     background-color:pink;
-     width:100%;
-     min-height:120px;
-     margin-bottom:20px;
+
+.title-1 {
+    background-color: pink;
+    width: 100%;
+    min-height: 120px;
+    margin-bottom: 20px;
 }
-.blocco2{
-     background-color:pink;
-     width:20%;
-     min-height:250px;
-     align-self: flex-start;
-    
-}
-.blocco3{
-    margin-left:50px;
-     background-color:pink;
-     width:60%;
-     min-height:100px;
-     align-self: center;
+
+.text-1 {
+    background-color: pink;
+    width: 20%;
+    min-height: 250px;
+    align-self: flex-start;
 
 }
-.sez1-bg{
+
+.img1 {
+    margin-left: 50px;
+    background-color: pink;
+    width: 60%;
+    min-height: 200px;
+    align-self: center;
+
+}
+
+.sez1-bg {
     background-color: aqua;
 }
-.wrap{
+
+.wrap {
     flex-wrap: wrap;
 }
-.direction{
+
+.direction {
     flex-direction: column;
 }
 
 
-.blocco4{
-    background-color:pink;
-     width:25%;
-     min-height:500px;
-     margin-top:50px;
+.professional {
+    background-color: pink;
+    width: 25%;
+    min-height: 500px;
+    margin-top: 50px;
 }
-.direction-r{
+
+.direction-r {
     flex-direction: row;
 }
-.justify{
+
+.justify {
     justify-content: center;
 }
-.blocco5{
-    background-color:pink;
-     width:25%;
-     min-height:500px;
-     margin-top:50px;
-     margin-left:20px;
-     margin-right:20px;
+
+.advanced {
+    background-color: pink;
+    width: 25%;
+    min-height: 500px;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
+
 .sez-bg {
-  display: flex;
-  flex-direction: row; 
-  align-items: center; 
-  padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
 }
 
-.blocco4, .blocco5, .blocco6 {
-  width: 50%;
-  min-height: 600px;
-  background-color: pink;
-  margin: 10px;
-  margin-bottom:80px;
-}
-/*Altra sezione*/
-.blocco7{
-    width:70%;
-    min-height:100px;
+.professional,
+.advanced,
+.enterprise {
+    width: 50%;
+    min-height: 600px;
     background-color: pink;
-    margin-right:10px;
-    margin-bottom:100px;
-}
-.blocco8{
-    width:30%;
-    min-height:100px;
-    background-color: pink;
-    margin-right:10px;
-    margin-bottom:100px;
+    margin: 10px;
+    margin-bottom: 80px;
 }
 
 /*Altra sezione*/
-
-.blocco9,.blocco10,.blocco11,.blocco12,.blocco13,.blocco14{
-    width:30%;
-  min-height: 500px;
-  background-color: pink;
-  margin-bottom:80px;
-  margin:10px;
-}
-.gap{
-    gap:20px;
+.team {
+    width: 70%;
+    min-height: 100px;
+    background-color: pink;
+    margin-right: 10px;
+    margin-bottom: 100px;
 }
 
+.contatti {
+    width: 30%;
+    min-height: 100px;
+    background-color: pink;
+    margin-right: 10px;
+    margin-bottom: 100px;
+}
 
+/*Altra sezione*/
+.img-contact-dropbox{
+    width:50%;
+    min-height:400px;
+    background-color: blue;
+    margin-bottom:100px;
+    margin-top: 100px;
+}
+.text-contact-dropbox{
+    width:50%;
+    min-height:400px;
+    background-color: brown;
+    margin-bottom:100px;
+    margin-top: 100px;
+}
 
+/*Altra sezione*/
+
+.folder,
+.pagina,
+.layout,
+.chat,
+.documenti,
+.dropbox {
+    width: 30%;
+    min-height: 500px;
+    background-color: pink;
+    margin-bottom: 80px;
+    margin: 10px;
+}
+
+.gap {
+    gap: 20px;
+}
+
+.dropbox-business {
+    margin-top: 200px;
+    width: 100%;
+    min-height: 300px;
+    background-color: blue;
+    margin-bottom: 200px;
+}
+
+.Dropbox,
+.prodotti,
+.azienda,
+.supporto,
+.community {
+    width: 30%;
+    min-height: 500px;
+    background-color: black;
+    margin-bottom: 80px;
+    margin:2px;
+}
+footer{
+    width:100%;
+    background-color: yellow;
+}
