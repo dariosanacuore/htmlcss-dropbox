@@ -107,5 +107,36 @@ nav.container {
   min-height: 600px;
   background-color: pink;
   margin: 10px;
+  margin-bottom:80px;
 }
+/*Altra sezione*/
+.blocco7{
+    width:70%;
+    min-height:100px;
+    background-color: pink;
+    margin-right:10px;
+    margin-bottom:100px;
+}
+.blocco8{
+    width:30%;
+    min-height:100px;
+    background-color: pink;
+    margin-right:10px;
+    margin-bottom:100px;
+}
+
+/*Altra sezione*/
+
+.blocco9,.blocco10,.blocco11,.blocco12,.blocco13,.blocco14{
+    width:30%;
+  min-height: 500px;
+  background-color: pink;
+  margin-bottom:80px;
+  margin:10px;
+}
+.gap{
+    gap:20px;
+}
+
+
 
