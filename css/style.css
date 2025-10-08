@@ -1,0 +1,38 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.container{
+    margin:0 auto;
+    background-color: lightblue;
+    max-width:1000px;
+
+}
+.flex, .align-center{
+    width:100%;
+    min-height:70px;
+    background-color: lightgreen;
+}
+.flex{
+    display: flex;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.align-center{
+    align-items: center;
+}
+.right-menu{
+    justify-content: flex-end;
+    gap:30px;
+}
+.left-menu{
+    justify-content: flex-start;
+}
+.left-menu li{
+    align-self: center;
+}
+.right-menu li{
+    align-self: center;
+}
