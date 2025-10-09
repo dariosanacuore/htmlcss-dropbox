@@ -373,11 +373,34 @@ h1 {
     min-height: 500px;
     background-color: black;
     margin-bottom: 80px;
-    margin: 2px;
 }
 
 footer {
     width: 100%;
-    background-color: yellow;
     padding: 5px;
+    background-color: black;
+}
+.h2-footer{
+    color:white;
+    margin-bottom:50px;
+}
+.li-footer{
+    color:white;
+    list-style: none;
+    display:flex;
+    flex-direction: column;
+    gap:30px;
+    margin-bottom:100px;
+}
+.bg-white{
+    color:white;
+}
+.fa-solid.fa-chevron-up{
+    font-size:16px;
+    margin-left:2px;
+}
+.fa-solid.fa-earth-americas{
+    color:white;
+    font-size:16px;
+    margin-right:2px;
 }
