@@ -22,9 +22,25 @@
 .header-flex {
     width: 100%;
     min-height: 100px;
-    background-color: lightyellow;
     display: flex;
     align-items: center;
+    padding: 0 20px;
+}
+ul{
+    list-style: none;
+}
+ul.left-menu.flex li{
+    padding-right:30px;
+}
+.a-bg-blue{
+    border:1px solid lightblue;
+    background-color: lightblue;
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left:15px;
+    padding-right:15px;
+    text-decoration: none;
+    color:white;
 }
 
 nav.container {
@@ -67,23 +83,29 @@ nav.container {
 
 .text-1 {
     background-color: pink;
-    width: 20%;
-    min-height: 250px;
+    width: 30%;
+    min-height: 300px;
     align-self: flex-start;
 
 }
-
+h1{
+    margin-bottom:20px;
+    text-align:center;
+    font-size:5rem;
+    margin-right: 100px;
+}
 .img1 {
-    margin-left: 50px;
+    margin-left:5px;
     background-color: pink;
     width: 60%;
-    min-height: 200px;
+    min-height: 300px;
     align-self: center;
 
 }
 
 .sez1-bg {
-    background-color: aqua;
+    background-color: lightblue;
+    padding: 100px 0;
 }
 
 .wrap {
@@ -125,6 +147,7 @@ nav.container {
     align-items: center;
     padding: 20px;
 }
+
 
 .professional,
 .advanced,
@@ -210,4 +233,5 @@ nav.container {
 footer{
     width:100%;
     background-color: yellow;
+    padding:5px;
 }
