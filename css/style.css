@@ -133,12 +133,83 @@ h1 {
     flex-direction: column;
 }
 
+.business-plan-title{
+    font-size:2rem;
+    text-align: center;
+    margin-top:50px;
+    margin-bottom:20px;
+}
+.radio{
+    margin-left:300px;
+}
+.singolo{
+    width:100%;
+    min-height:80px;
+    text-align:center;
+    border-bottom: 1px solid lightgrey;
+}
+.team-professional{
+    width:100%;
+    min-height:80px;
+    text-align:center;
+    border-bottom: 1px solid lightgrey;
+}
+.contattaci{
+    width:100%;
+    min-height:80px;
+    text-align:center;
+    border-bottom: 1px solid lightgrey;
+}
+
+.fa-user{
+    font-size:20px;
+}
+.fa-solid.fa-people-group{
+    font-size:20px;
+}
+.fa-solid.fa-building{
+    font-size:20px;
+}
+.fa-solid.fa-folder{
+    font-size:20px;
+}
+.fa-solid.fa-share-nodes{
+    font-size:20px;
+}
+
 
 .professional {
-    background-color: pink;
+    border:1px solid lightgrey;
     width: 25%;
     min-height: 500px;
-    margin-top: 50px;
+    margin-top: 20px;
+}
+.lista-professional{
+    margin-bottom:50px;
+}
+.lista-professional li{
+    text-align: left;
+}
+.professional-prova-gratis{
+   margin-left:50px;
+   margin-bottom:30px;
+}
+
+.acquisto{
+    text-align:center;
+    margin-top:30px;
+}
+.fa-solid.fa-check{
+    font-size:20px;
+    color:blue;
+}
+
+.color-grey{
+    color:grey;
+    margin-left:30px;
+}
+.euro{
+    margin-left:30px;
 }
 
 .direction-r {
@@ -150,7 +221,7 @@ h1 {
 }
 
 .advanced {
-    background-color: pink;
+    border:1px solid lightgrey;
     width: 25%;
     min-height: 500px;
     margin-top: 50px;
@@ -164,14 +235,27 @@ h1 {
     align-items: center;
     padding: 20px;
 }
+/*Inizio enterprise*/
+.enterprise{
+    border:1px solid lightgrey;
+    width: 25%;
+    min-height: 500px;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+}
+.enterprise-prova-gratis{
+    margin-right:30px;
+}
 
 
 .professional,
 .advanced,
 .enterprise {
+    border:1px solid lightgrey;
     width: 50%;
-    min-height: 600px;
-    background-color: pink;
+    min-height: 1200px;
     margin: 10px;
     margin-bottom: 80px;
 }
